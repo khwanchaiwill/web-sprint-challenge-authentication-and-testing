@@ -8,7 +8,7 @@ const Users = require('../auth/AuthModel.js');
 describe('server', () => {
 
     beforeEach(async () => {
-        // empty table and reset parimary ket back to 1
+        // empty table and reset parimary get back to 1
         await db('users').truncate();
 
     })
@@ -50,8 +50,7 @@ describe('server', () => {
         });
 
         it('should insert the provided hobbits into the db', async () => {
-            // this code expects that the table is empty, we'll handle that below
-            // add data to the test database using the data access file
+           
             await Users.add({ username: 'gaffer', password: "03248428" });
             await Users.add({ username: 'sam', password: "03248428" });
       
