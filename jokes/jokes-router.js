@@ -6,7 +6,6 @@ router.get('/', (req, res) => {
   const requestOptions = {
     headers: { accept: 'application/json' },
   };
-
   axios
     .get('https://icanhazdadjoke.com/search', requestOptions)
     .then(response => {

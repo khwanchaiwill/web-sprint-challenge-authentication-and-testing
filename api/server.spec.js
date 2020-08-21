@@ -92,7 +92,6 @@ describe('server', () => {
             
             done();
         });
-
         it('should can find byid', async done => {
            
             await Users.add({ username: 'gaffer', password: "03248428" });
