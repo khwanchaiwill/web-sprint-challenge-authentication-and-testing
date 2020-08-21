@@ -26,11 +26,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Differences between using _sessions_ or _JSON Web Tokens_ for authentication.
 
+    Answer: using session is stored in the server'memory but the web token is stored client-side, the Json web token is stateless and they have cyptographic signature not with session.
+
 2. What does `bcrypt` do to help us store passwords in a secure manner.
+
+    Answer: bcrypt is helping to hash the password to utilizes plain text to store in to the database and reverse process back to match an original passwrod to client side.
 
 3. How are unit tests different from integration and end-to-end testing.
 
+    Answer: The unit tests test the smaller unit of a solfware, it is often testing and  run faster than integration and end to end test.
+
 4. How _Test Driven Development_ changes the way we write applications and tests.
+
+    Answer: TDD is to write and correct the failed test before writing new code,  
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -38,12 +46,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
